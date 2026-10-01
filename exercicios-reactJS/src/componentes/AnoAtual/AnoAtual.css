@@ -1,0 +1,8 @@
+.anoAtual{
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 217, 0);
+
+  margin: 16px;
+}

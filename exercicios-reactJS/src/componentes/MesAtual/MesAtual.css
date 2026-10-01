@@ -1,0 +1,8 @@
+.mesAtual{
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(35, 110, 0);
+  color: rgb(255, 255, 255);
+
+  margin: 16px;
+}
