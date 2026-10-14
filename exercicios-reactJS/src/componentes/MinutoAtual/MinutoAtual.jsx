@@ -1,9 +1,9 @@
-import './MinutoAtual.css';
+import "./MinutoAtual.css"
 
 function MinutoAtual(){
-    return (
-        <div className="minutoAtual">30</div>
-    );
-};
+    return(
+        <div className="MinutoAtual">30</div>
+    )
+}
 
-export default MinutoAtual;
+export default MinutoAtual

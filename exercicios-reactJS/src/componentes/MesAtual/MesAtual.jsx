@@ -1,9 +1,9 @@
-import './MesAtual.css';
+import "./MesAtual.css";
 
 function MesAtual(){
-    return (
-        <div className="mesAtual">03</div>
-    );
+    return(
+        <div className="MesAtual">03</div>
+    )
 };
 
-export default MesAtual;
+export default MesAtual

@@ -1,0 +1,9 @@
+.AnoAtual{
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: red;
+    color: yellow;
+
+    margin: 16px;
+}

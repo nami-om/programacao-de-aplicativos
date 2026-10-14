@@ -1,0 +1,7 @@
+.Soma_root{
+    display: flex;
+    justify-content: center;
+
+    background-color: brown;
+    color: white;
+}

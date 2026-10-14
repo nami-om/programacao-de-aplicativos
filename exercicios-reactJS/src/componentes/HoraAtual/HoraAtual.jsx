@@ -1,9 +1,9 @@
-import './HoraAtual.css'
+import "./HoraAtual.css";
 
 function HoraAtual(){
-    return (
-        <div className ="horaAtual">20</div>
-    );
+    return(
+        <div className="HoraAtual">20</div>
+    )
 };
 
 export default HoraAtual;

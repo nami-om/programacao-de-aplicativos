@@ -1,0 +1,19 @@
+.div_maior_idade{
+    display: flex;
+    justify-content: center;
+
+    background-color: green;
+    color: yellow;
+
+    padding: 5px;
+}
+
+.div_menor_idade{
+    display: flex;
+    justify-content: center;
+
+    background-color: red;
+    color: yellow;
+
+    padding: 5px;
+}
