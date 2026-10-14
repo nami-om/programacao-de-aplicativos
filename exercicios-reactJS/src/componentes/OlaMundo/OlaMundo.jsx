@@ -1,4 +1,4 @@
-import './OlaMundo.css';
+import "./OlaMundo.css";
 
 // Crie um componente chamado 'NomesOrdenados' que aceita uma prop chamado 'nomes'
 // e deve ser uma lista com pelo menos 5 nomes de pessoas aleatórias e não ordenada.
@@ -7,7 +7,7 @@ import './OlaMundo.css';
 const OlaMundo = () => {
   return (
     <>
-      <div className='olaMundo'>Olá, Mundo!!</div>
+      <div className="olaMundo">Olá, Mundo!!</div>
     </>
   );
 };

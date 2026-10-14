@@ -1,7 +1,7 @@
-.OlaPessoa_root{
-    display: flex;
-    justify-content: center;
+.OlaPessoa_root {
+  display: flex;
+  justify-content: center;
 
-    background-color: orange;
-    color: white;
+  background-color: orange;
+  color: white;
 }

@@ -1,7 +1,7 @@
-.Calculadora_root{
-    display: flex;
-    justify-content: center;
+.Calculadora_root {
+  display: flex;
+  justify-content: center;
 
-    background-color: green;
-    color: white;
+  background-color: green;
+  color: white;
 }

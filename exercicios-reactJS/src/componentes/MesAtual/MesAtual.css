@@ -1,9 +1,9 @@
-.MesAtual{
-    display: flex;
-    justify-content: flex-start;
+.MesAtual {
+  display: flex;
+  justify-content: flex-start;
 
-    background-color: green;
-    color: white;
+  background-color: green;
+  color: white;
 
-    margin: 16px;
+  margin: 16px;
 }

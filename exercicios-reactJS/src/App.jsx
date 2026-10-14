@@ -4,7 +4,7 @@ import DiaAtual from './componentes/DiaAtual/DiaAtual';
 import MesAtual from './componentes/MesAtual/MesAtual';
 import AnoAtual from './componentes/AnoAutal/AnoAtual';
 import HoraAtual from './componentes/HoraAtual/HoraAtual';
-import MinutoAtual from './componentes/MinutoAtual/MInutoAtual';
+import MinutoAtual from './componentes/MinutoAtual/MinutoAtual';
 import DataCompletaAtual from './componentes/DataCompletaAtual/DataCompletaAtual';
 import OlaPessoa from './componentes/OlaPessoa/OlaPessoa';
 import ListaProdutos from './componentes/ListaProdutos/ListaProdutos';
@@ -90,7 +90,7 @@ function App() {
 
       </span>
 
-      <OlaPessoa nome="Athos" />
+      <OlaPessoa nome="Mariom" />
       <hr />
 
       <span>
@@ -127,7 +127,7 @@ function App() {
 
       </span>
 
-      <VerificarIdade idade="16" />
+      <VerificarIdade idade="34" />
 
       <span>
         11.Crie um componente chamado 'NumerosPares' que aceita uma prop chamada
@@ -231,7 +231,7 @@ function App() {
         justificado à direita na cor amarela.
       </span>
 
-      <TamanhoTexto texto="Meu nome é Athos. Eu tenho 16 anos e gosto de cibersegurança." />
+      <TamanhoTexto texto="Galinhas azuis do stardew são as melhores." />
 
       <span>
         19.Crie um componente chamado 'NomesOrdenados' que aceita uma prop
@@ -243,11 +243,11 @@ function App() {
 
       <NomesOrdenados 
       nomes={[
-        "Arline Allison",
         "Elnora Clarke",
+        "Arline Allison",
         "Freeman Dickson",
-        "Lizzie Patterson",
-        "Maude Stanton"
+        "Maude Stanton",
+        "Lizzie Patterson"
       ]}/>
 
 

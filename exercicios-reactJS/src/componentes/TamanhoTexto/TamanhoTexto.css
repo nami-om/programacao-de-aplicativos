@@ -1,7 +1,7 @@
-.TamanhoTexto_root{
-    display: flex;
-    justify-content: flex-end;
+.TamanhoTexto_root {
+  display: flex;
+  justify-content: flex-end;
 
-    background-color: brown;
-    color: yellow;
+  background-color: brown;
+  color: yellow;
 }
