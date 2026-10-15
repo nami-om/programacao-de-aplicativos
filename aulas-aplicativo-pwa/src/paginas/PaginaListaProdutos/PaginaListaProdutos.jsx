@@ -21,7 +21,7 @@ const produtos = [
 
 function PaginaListaProdutos() {
   return (
-    <Principal titulo="Lista de Produtos">
+    <Principal titulo="Lista de Produtos" returnTo="/">
       {produtos.map((itemProduto, index) => {
         return (
           <div className="PaginaListaProdutos_item" key={index}>

@@ -1,15 +1,15 @@
-.PaginaListaProdutos_item{
-    background-color: rgb(231, 182, 253);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px #0214b8;
+.PaginaListaProdutos_item {
+  background-color: rgb(231, 182, 253);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #0214b8;
 }
 
-.PaginaListaProdutos_cores{
-    display: flex;
+.PaginaListaProdutos_cores {
+  display: flex;
 }
 
-.PaginaListaProdutos_cor-item{
-    flex: 1;
-    height: 24px;
+.PaginaListaProdutos_cor-item {
+  flex: 1;
+  height: 24px;
 }
