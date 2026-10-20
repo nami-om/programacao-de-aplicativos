@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PaginaListaProdutos from "./paginas/PaginaListaProdutos/PaginaListaProdutos";
 import PaginaListaTarefas from "./paginas/PaginaListaTarefas/PaginaListaTarefas";
 
+
 const roteador = createBrowserRouter([
   {
     path: "",
