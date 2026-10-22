@@ -1,14 +1,15 @@
 import Avatar from "../Avatar/Avatar";
 import "./Cabecalho.css";
+import logo from "../../assets/download.jpg";
 
 function Cabecalho() {
   return (
     <header className="Cabecalho_root">
       <img
-        src="/favicon.svg"
+        src={logo}
         style={{
           width: "24px",
-          height: 24,
+          height: "24px",
         }}
       />
 

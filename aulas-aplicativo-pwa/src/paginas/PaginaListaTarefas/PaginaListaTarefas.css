@@ -1,0 +1,9 @@
+.PaginaListaTarefas_item {
+  background-color: #ffff;
+  padding: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px;
+}

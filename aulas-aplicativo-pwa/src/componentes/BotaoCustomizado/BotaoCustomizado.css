@@ -14,11 +14,11 @@
 }
 
 .BotaoCustomizado_primario {
-  background-color: var(--cor-primaria);
+  background-color: var(--cor-secundaria-escura);
   color: var(--cor-texto-claro);
 }
 
 .BotaoCustomizado_secundario {
-  background-color: var(--cor-secundaria);
+  background-color: var(--cor-secundaria-clara);
   color: var(--cor-texto-claro);
 }
