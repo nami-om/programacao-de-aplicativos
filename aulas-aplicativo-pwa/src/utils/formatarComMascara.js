@@ -16,4 +16,4 @@ export const formatarComMascara = (value, mask) => {
 };
 
 
-export default MASCARA_TELEFONE = "(##) #####-####";
+export const MASCARA_TELEFONE = "(##) #####-####";

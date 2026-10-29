@@ -2,6 +2,7 @@ import { useState } from "react";
 import BotaoCustomizado from "../../componentes/BotaoCustomizado/BotaoCustomizado";
 import CampoCustomizado from "../../componentes/CampoCustomizado/CampoCustomizado";
 import Principal from "../../componentes/Principal/Principal";
+import { formatarComMascara, MASCARA_TELEFONE } from "../../utils/FormatarComMascara";
 
 function PaginaCadastroCliente() {
   const [nome, setNome] = useState("");
@@ -41,15 +42,15 @@ function PaginaCadastroCliente() {
       />
       <CampoCustomizado
         label="Telefone"
-        type="number"
+        type="tel"
         value={telefone}
-        onChange={(e) => setTelefone(e.target.value)}
+        onChange={(e) => setTelefone(formatarComMascara(e.target.value, MASCARA_TELEFONE))}
       />
       <CampoCustomizado
         label="CPF"
         type="text"
         value={cpf}
-        onChange={(e) => setCpf(e.target.value.replace(/\D/g, ""))}
+        onChange={(e) => setCpf(e.target.value)}
       />
 
       <BotaoCustomizado tipo="primario" aoClicar={salvar}>
